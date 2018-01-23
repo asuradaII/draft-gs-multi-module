@@ -1,0 +1,10 @@
+
+
+server:
+  port: 80
+  address:
+  display-name: helloworld
+  context-path: /helloworld
+spring:
+  profiles:
+    include: log/logback.xml
